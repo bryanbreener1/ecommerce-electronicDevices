@@ -1,0 +1,23 @@
+.filter__container{
+    width: 250px;
+    margin-top: 40px;
+}
+.filter__title{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 2px solid var(--color-gray);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.filter__list{
+    margin-left: 10px;
+}
+.filter__list-item{
+    margin: 12px 0;
+    cursor: pointer;
+}
+.filter__list-item:hover{
+    color: var(--color-red);
+}

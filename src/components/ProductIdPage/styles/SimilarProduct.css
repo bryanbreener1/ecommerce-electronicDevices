@@ -1,0 +1,7 @@
+.similar__title{
+    font-weight: 600;
+    color: var(--color-red);
+    margin-bottom: 60px;
+    width: 80%;
+    margin: 60px auto;
+}

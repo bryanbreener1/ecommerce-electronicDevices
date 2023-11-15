@@ -1,0 +1,9 @@
+.purchase__page{
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto 0 auto;
+    aspect-ratio: 1;
+}
+.purchases__title{
+    font-weight: 500;
+}

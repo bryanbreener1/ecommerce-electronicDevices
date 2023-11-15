@@ -1,0 +1,46 @@
+.form__wrapper{
+    height: calc(100vh - 82px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__register{
+    width: 350px;
+}
+.form__title{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--color-red);
+}
+.form__container{
+    background-color: rgb(228, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+.form__file{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.form__file label{
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+.form__file input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form__button{
+    background-color: var(--color-red);
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}

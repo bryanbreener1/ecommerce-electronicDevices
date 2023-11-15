@@ -1,0 +1,25 @@
+.prod__container-slide-desc{
+    display: flex;
+    margin-bottom: 60px;
+    align-items: center;
+    gap: 6%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prod__byid-container{
+    width: 80%;
+    margin: 40px auto;
+    aspect-ratio: 1;
+}
+
+@media (max-width:780px) {
+    .prod__byid-container{
+        margin-top: 0;
+    }
+}
+@media (max-width:1400px) {
+    .prod__byid-container{
+        width: 100%;
+    }
+}
